@@ -1,0 +1,64 @@
+{
+    "users": {
+        "2": {
+            "name": "Mathews",
+            "email": "mathews.plathottam@example.com",
+            "password": "1234password"
+        }
+    },
+    "chats": {
+        "1": {
+            "name": "Chat 10",
+            "users": [
+                "1",
+                "2",
+                "2"
+            ]
+        }
+    },
+    "messages": {
+        "2": {
+            "sender_id": "1",
+            "chat_id": "1",
+            "content": "Hello, how are you?",
+            "reaction": "\ud83d\udc4d"
+        },
+        "3": {
+            "sender_id": "1",
+            "chat_id": "1",
+            "content": "Hello, how are you?"
+        }
+    },
+    "groups": {
+        "1": {
+            "name": "Study Group",
+            "users": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "2": {
+            "name": "Fun Group",
+            "users": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    },
+    "notifications": {
+        "1": {
+            "message": "You have a new message from User 2",
+            "read": true
+        },
+        "2": {
+            "message": "You have a new message from User 2",
+            "read": true
+        },
+        "3": {
+            "message": "You have a new message from User 2",
+            "read": true
+        }
+    }
+}
